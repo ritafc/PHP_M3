@@ -1,0 +1,49 @@
+/**
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+*/
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
+
+}
+.bloque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 400px;
+}
+
+.bloque1{
+    background: #244F75;
+
+}
+.bloque2{
+    background: #60BFBF;
+}
+.bloque3{
+    background: #8C4B7E;
+}
+.bloque4{
+    background: #F8BB44;
+}
+.bloque5{
+    background: #F24B4B;
+}
+
+h1{    
+    font-size: 3.5vw;
+    color: white;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+
+}
